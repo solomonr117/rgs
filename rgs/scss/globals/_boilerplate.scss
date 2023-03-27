@@ -1,0 +1,28 @@
+@use 'colors' as c;
+
+html{
+    box-sizing:border-box ;
+    font-size:100%;
+    scroll-behavior: smooth;
+
+}
+
+*, *:before,*:aftere{
+    box-sizing:inherit ;
+    font-family: 'Poppins',sans-serif;
+
+
+}
+
+body{
+    margin :0;
+    padding: 0;
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:c.$site_white;
+    position: relative;
+    background-color: c.$site_black;    
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
